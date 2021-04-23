@@ -1,0 +1,55 @@
+html {
+    font-size: 100%;
+}
+
+body {
+    background-image: linear-gradient(to top right, rgba(122, 153,153, .2),
+    rgba(140, 200, 200, .3));
+}
+
+#header {
+    text-align: center;
+    font-size: 3rem;
+    background-image: linear-gradient(to top right,
+     rgba(0, 191, 255, 0.2), rgba(0, 181, 181, .5), rgba(0, 225, 111, 0.2));
+    border-radius: .48rem 2.48rem 1.84rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+}
+
+#git {
+    background-color: #4d94ff;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.subsection {
+    margin-left: 4rem;
+}
+
+.section {
+    font-size: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.two_col {
+    float: left;
+    width: 50%;
+    padding: 1rem;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
