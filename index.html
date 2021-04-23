@@ -65,10 +65,10 @@
                 </p>
                 <div class="row">
                     <div class="two_col">
-                        <img src="grid.PNG" style="width:70%; margin-left: 1rem;">
+                        <img src="grid.png" style="width:70%; margin-left: 1rem;">
                     </div>
                     <div>
-                        <img src="warped_grid.PNG" style="width:35%; margin-top:.75rem;">
+                        <img src="warped_grid.png" style="width:35%; margin-top:.75rem;">
                     </div>
                 </div>
                 <p>
@@ -88,14 +88,14 @@
                     of the piece has been found, polygon approximation is used to ensure there are no extra points. This polygon is used to create
                     a mask for the piece, which is used when stitching the pieces together as well as replacing the background for further analysis steps. 
                 </p>
-                <img src="poly.PNG" class="center" style="margin-top:.75rem; width:20%">
+                <img src="poly.png" class="center" style="margin-top:.75rem; width:20%">
                 <p style="text-align:center;font-size:.75rem;"><em>purple lines connecting key points</em></p>
                 <p>
                     Now it is necessary to find the corner points of the piece. Using the fact that the corners all are at right angles from each other,
                     cycle through the points to find ones that create a rectangle. The corner points are also used to determine if the piece is skewed or not.
                     If it is, rotate it so the top line is parallel with the x-axis and repeat the canny edge detection step.
                 </p>
-                <img src="corners.PNG" class="center" style="margin-top:.75rem; width:20%">
+                <img src="corners.png" class="center" style="margin-top:.75rem; width:20%">
                 <p style="text-align:center;font-size:.75rem;"><em>lavender lines connecting corner points</em></p>
                 <p>
                     In order to determine which edges are on which side of the piece, order the corner points clockwise. Now, using hte top left corner,
